@@ -15,10 +15,11 @@ public class WebhookController {
     }
 
     @PostMapping("/github")
-    public ResponseEntity<Void> receiveWebhook(
-            @RequestHeader("X-Hub-Signature-256") String signature,
+    public ResponseEntity<Void> handleGithubWebhook(
+            @RequestHeader(value = "X-Hub-Signature-256", required = false) String signature,
             @RequestBody String payload) {
         webhookService.handleWebhook(signature, payload);
         return ResponseEntity.ok().build();
     }
 }
+
