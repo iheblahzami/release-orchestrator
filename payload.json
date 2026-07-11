@@ -1,5 +1,37 @@
 {
-  "repository": { "name": "release-app" },
   "ref": "refs/heads/main",
-  "after": "abc123"
+  "before": "a10867b14bb761a232cd80139fbd4c0d33264240",
+  "after": "62f5d5f3d19f7f3f8b8f3f8b8f3f8b8f3f8b8f3f",
+  "repository": {
+    "id": 123456789,
+    "name": "release-app",
+    "full_name": "iheblahzami/release-app",
+    "private": false,
+    "owner": {
+      "name": "iheblahzami",
+      "email": "mohamediheb.lahzami@gmail.com"
+    },
+    "html_url": "https://github.com/iheblahzami/release-app"
+  },
+  "pusher": {
+    "name": "iheblahzami",
+    "email": "mohamediheb.lahzami@gmail.com"
+  },
+  "sender": {
+    "login": "iheblahzami",
+    "id": 987654321,
+    "html_url": "https://github.com/iheblahzami"
+  },
+  "commits": [
+    {
+      "id": "62f5d5f3d19f7f3f8b8f3f8b8f3f8b8f3f8b8f3f",
+      "message": "Add CI/CD pipeline trigger",
+      "timestamp": "2026-07-11T09:15:00Z",
+      "author": {
+        "name": "iheblahzami",
+        "email": "mohamediheb.lahzami@gmail.com"
+      },
+      "url": "https://github.com/iheblahzami/release-app/commit/62f5d5f3d19f7f3f8b8f3f8b8f3f8b8f3f8b8f3f"
+    }
+  ]
 }
