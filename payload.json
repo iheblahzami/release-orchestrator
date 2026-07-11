@@ -1,0 +1,5 @@
+{
+  "repository": { "name": "release-app" },
+  "ref": "refs/heads/main",
+  "after": "abc123"
+}
